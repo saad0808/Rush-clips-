@@ -1,0 +1,13 @@
+name = "rushclips"
+main = "worker.js"
+compatibility_date = "2026-09-14"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Reviews require a Cloudflare KV namespace bound as REVIEWS_KV.
+# If deploying with Wrangler, add the namespace ID below:
+# [[kv_namespaces]]
+# binding = "REVIEWS_KV"
+# id = "YOUR_KV_NAMESPACE_ID"
